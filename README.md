@@ -18,6 +18,24 @@ The filtered parts (ca. 11'000 items) are then sent to the [gobricks.cn](https:/
 
 ---
 
+### Convert Bricklink to BOM
+
+- pick a set
+- export set inventory to new Wanted List
+    + click "part out"
+    + create new Wanted List
+- download the Wanted List as `.xml` file
+- open the `.xml` file with Microsoft Excel
+- save the table as `bom.csv`
+- run the `bricklink_to_gobrick.py`
+- open the `bom_gobricks.csv` with a text editor
+- select all + copy
+- open the template `gds-list.xml` from gobricks in Microsoft Excel
+- paste the csv values in the table, save
+- upload to gobricks.cn toolkit
+
+---
+
 ### Gobricks API Documentation
 
 (inofficial / reverse engineered)
