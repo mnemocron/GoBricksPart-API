@@ -10,6 +10,12 @@ This iPython Script uses the brick database from [rebrickable.com](https://rebri
 The part numbers are filtered by category (e.g. no sticker sheets, Duplo® etc.).
 The filtered parts (ca. 11'000 items) are then sent to the [gobricks.cn](https://gobricks.cn) backend API to get a result **if** gobricks offers a compatible clone part and what Gobricks item number is.
 
+**edit**
+
+Actually, there is no need to convert any of your lists as long as they are in .csv Format.
+The Gobricks toolkit accepts partlists with LEGO® ID part numbers in the Rebrickable .csv Format.
+LEGO® ID part numbers in a .xlsx File will not work.
+
 ---
 
 ### Part Lists
